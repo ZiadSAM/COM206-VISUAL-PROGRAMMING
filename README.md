@@ -29,7 +29,7 @@ Taskflow is a simple to-do list application made for my Visual Programming midte
 
 ## Installation
 - git clone https://github.com/ZiadSAM/COM206-VISUAL-PROGRAMMING
-- cd to_do_list
+- cd COM206-VISUAL-PROGRAMMING/submissions/ziyad-sobhi
 - flutter pub get
 - flutter run
 
