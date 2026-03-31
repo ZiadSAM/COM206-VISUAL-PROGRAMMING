@@ -24,5 +24,19 @@ Taskflow is a simple to-do list application made for my Visual Programming midte
 - The settings page allows deleting all tasks
 - A confirmation dialog appears before deleting all tasks
 
+## Installation
+- Clone the repository:
+  git clone https://github.com/ZiadSAM/COM206-VISUAL-PROGRAMMING
+  
+- Navigate to the project folder:
+  cd COM206-VISUAL-PROGRAMMING/submissions/ziyad-sobhi
+  
+- Install dependencies:
+  flutter pub get
+  
+- Run the application:
+  flutter run
+
+
 ## Author
 - Ziyad Sobhi
