@@ -19,7 +19,6 @@ window = loader.load(ui_file)
 ui_file.close()
 
 
-# CALCULATE FUNCTION
 def calculate_grade():
     try:
         midterm = float(window.midtermInput.text())
@@ -32,7 +31,6 @@ def calculate_grade():
 
         total = (midterm * 0.30) + (final * 0.50) + (homework * 0.20)
 
-        # LETTER GRADE
         if total >= 90:
             grade = "A"
         elif total >= 80:
@@ -44,13 +42,11 @@ def calculate_grade():
         else:
             grade = "F"
 
-        # PASS / FAIL
         if total >= 60:
             status = "Passed"
         else:
             status = "Failed"
 
-        # UPDATE LABELS
         window.scoreLabel.setText(f"Score: {total:.2f}")
         window.gradeLabel.setText(f"Grade: {grade}")
         window.statusLabel.setText(f"Status: {status}")
@@ -114,7 +110,6 @@ def delete_selected():
     else:
         QMessageBox.warning(window, "No Selection", "Please select a row to delete.")
 
-# CONNECT BUTTON
 window.calculateButton.clicked.connect(calculate_grade)
 window.addButton.clicked.connect(add_to_table)
 window.clearButton.clicked.connect(clear_inputs)
