@@ -85,12 +85,12 @@ Final Score =
 ## Installation
 
 1. Clone the repository
-git clone https://github.com/ZiadSAM/student-grading-system.git
+git clone https://github.com/ZiadSAM/COM206-VISUAL-PROGRAMMING.git
 
 2. Open the project folder
-cd student-grading-system
+cd COM206-VISUAL-PROGRAMMING/submissions/ziyad-sobhi/Qt
 
-4. Install required libraries
+4. Install the required library
 pip install PySide6
 
 5. Run the application
