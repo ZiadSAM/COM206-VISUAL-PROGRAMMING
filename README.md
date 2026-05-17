@@ -85,7 +85,7 @@ Final Score =
 ## Installation
 
 1. Clone the repository
-git clone https://github.com/yourusername/student-grading-system.git
+git clone https://github.com/ZiadSAM/student-grading-system.git
 
 2. Open the project folder
 cd student-grading-system
