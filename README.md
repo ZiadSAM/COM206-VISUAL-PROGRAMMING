@@ -88,7 +88,7 @@ Final Score =
 git clone https://github.com/ZiadSAM/COM206-VISUAL-PROGRAMMING.git
 
 2. Open the project folder
-cd COM206-VISUAL-PROGRAMMING/submissions/ziyad-sobhi/Qt
+cd COM206-VISUAL-PROGRAMMING/submissins/ziyad-sobhi/Qt
 
 4. Install the required library
 pip install PySide6
